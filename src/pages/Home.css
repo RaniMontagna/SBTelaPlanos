@@ -1,0 +1,22 @@
+.Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 200px;
+}
+
+.Home .Planos {
+    display: flex;
+    flex-direction: row;
+}
+
+.Home .Planos li {
+    list-style: none;
+}
+
+@media (max-width: 1200px) {
+    .Home .Planos {
+        flex-direction: column;
+    }
+}

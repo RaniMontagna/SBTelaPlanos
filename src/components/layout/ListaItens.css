@@ -1,0 +1,19 @@
+.liNaoIncluso {
+    color: gray;
+}
+
+.liNaoIncluso span {
+    text-decoration: line-through;
+}
+
+.liNaoIncluso span.icon {
+    color: #808080;
+}
+
+.liNegrito span.icon {
+    color: #00df43;
+}
+
+.liNegrito {
+    font-weight: bold;
+}
